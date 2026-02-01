@@ -72,6 +72,7 @@ function App() {
           <button 
             className="btn-no"
             onMouseEnter={moveButton}
+            onMouseDown={moveButton}
             style={noButtonPos ? {
               position: 'fixed',
               left: `${noButtonPos.x}px`,
